@@ -9,3 +9,8 @@
 5. `pipenv install`
 6. `pipenv run python run.py`
 
+## how to mv filter by prefix 'dst\_'
+
+```
+$ ls | grep -E "^dst_" | awk '{print $1 " ../dst"}' | xargs -n 2 mv
+```
