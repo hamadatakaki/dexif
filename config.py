@@ -1,0 +1,1 @@
+dirname = "intern_image"
